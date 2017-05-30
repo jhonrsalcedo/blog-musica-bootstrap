@@ -1,35 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Kumar+One');
 body {
-	background: ghostwhite;
+	background: #f8f8f8;
+}
+
+p {
+	font-family: 'Gudea', sans-serif;
 }
 
 header {
 	background: gainsboro;
 }
 
-.h1-titulo {
-	font-family: 'Bitter', serif;
+.h1-title {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
 	margin: 0 auto;
+}
+
+.h3-title {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
 }
 
 .margin-top {
 	margin-top: 40px;
 }
-.margin-container{
+
+.margin-container {
 	margin-top: 40px;
 }
+
 .padding-top {
 	padding-top: 40px;
 }
 
-.padding-social{
+.nav-musik {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.padding-social {
 	padding-top: 40px;
 }
-.padding-title{
+
+.padding-title {
 	padding-top: 40px
 }
-.margin-logo{
+
+.margin-logo {
 	margin: 10px 0px 10px;
 }
+
 img {
 	margin-left: 5px;
 }
@@ -38,37 +59,40 @@ img {
 	text-align: center;
 }
 
-@media only screen and (max-width : 768px) {
-.margin-logo{
-	margin: 10px 0 0;
+.section-p {
+	padding: 10px;
 }
-.padding-top{
-padding-top: 20px;
-}
-.padding-title{
-	padding-top: 0px;
-	padding-bottom: 10px;
-}
-.padding-social{
-	padding-top: 0px;
-	padding-bottom: 15px; 
-}
-    }
 
-		@media only screen and (max-width : 992px) {
-.margin-logo{
-	margin: 10px 0 0;
+@media only screen and (max-width: 768px) {
+	.margin-logo {
+		margin: 10px 0 0;
+	}
+	.padding-top {
+		padding-top: 20px;
+	}
+	.padding-title {
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+	.padding-social {
+		padding-top: 0px;
+		padding-bottom: 15px;
+	}
 }
-.padding-top{
-padding-top: 20px;
-}
-.padding-title{
-	padding-top: 0px;
-	padding-bottom: 10px;
-}
-.padding-social{
-	padding-top: 0px;
-	padding-bottom: 15px; 
-}
-    }
 
+@media only screen and (max-width: 992px) {
+	.margin-logo {
+		margin: 10px 0 10px;
+	}
+	.padding-top {
+		padding-top: 20px;
+	}
+	.padding-title {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.padding-social {
+		padding-top: 0px;
+		padding-bottom: 15px;
+	}
+}
